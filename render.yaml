@@ -1,1 +1,12 @@
-
+services:
+  - type: web
+    name: my-portfolio
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    rootDir: /
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+    staticPublishPath: ./dist

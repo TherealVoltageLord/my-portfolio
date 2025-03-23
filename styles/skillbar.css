@@ -1,1 +1,30 @@
+.skillbar {
+  width: 80%;
+  margin: 20px auto;
+}
 
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  height: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  color: white;
+  background: orange;
+}
